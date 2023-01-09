@@ -1,0 +1,68 @@
+// Mixins
+@mixin transitionEffect($par) {
+    transition: $par all;
+    -webkit-transition: $par all;
+    -moz-transition: $par all;
+    -ms-transition: $par all;
+    -o-transition: $par all;
+}
+
+@mixin borderRadius($par) {
+    border-radius: $par;
+    -webkit-transition: $par;
+    -moz-transition: $par;
+    -ms-transition: $par;
+    -o-transition: $par;
+}
+
+@mixin centerFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin transformTranslate($x, $y) {
+    transform: translate($x, $y);
+    -webkit-transition: translate($x, $y);
+    -moz-transition: translate($x, $y);
+    -ms-transition: translate($x, $y);
+    -o-transition: translate($x, $y);
+}
+
+@mixin transformTranslateX($x) {
+    transform: translate($x);
+    -webkit-transition: translate($x);
+    -moz-transition: translate($x);
+    -ms-transition: translate($x);
+    -o-transition: translate($x);
+}
+
+@mixin transformTranslateY($y) {
+    transform: translate($y);
+    -webkit-transition: translate($y);
+    -moz-transition: translate($y);
+    -ms-transition: translate($y);
+    -o-transition: translate($y);
+}
+
+@mixin transformRotate($par) {
+    transform: rotate($par);
+    -webkit-transition: rotate($par);
+    -moz-transition: rotate($par);
+    -ms-transition: rotate($par);
+    -o-transition: rotate($par);
+}
+
+@mixin transformScale ($par) {
+    transform: scale($par);
+    -webkit-transition: scale($par);
+    -moz-transition: scale($par);
+    -ms-transition: scale($par);
+    -o-transition: scale($par);
+}
+
+@mixin imageFit {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

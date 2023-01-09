@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: $body-text;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.9;
+    letter-spacing: 0.03rem; // 1rem : 16px
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $body-text;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+}

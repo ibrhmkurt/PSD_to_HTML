@@ -1,0 +1,38 @@
+// Footer
+
+.footer {
+    background-color: $dark-color;
+    padding: 80px 0;
+
+    &-copyright {
+        width: 100%;
+        margin-bottom: 30px;
+
+        p {
+            color: #fff;
+            text-align: center;
+        }
+    }
+
+    &-social {
+        width: 100%;
+        @include centerFlex;
+
+        ul {
+            display: flex;
+
+            li {
+                
+                a {
+                    color: $primary-color;
+                    &:not(:last-child) {
+                        margin-right: 15px;
+                    }
+                    i {
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
