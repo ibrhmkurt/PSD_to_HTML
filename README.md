@@ -1,1 +1,1 @@
-# PSD_to_SASS
+My first Sass project.
